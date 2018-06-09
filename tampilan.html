@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Dapid's Books</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <div class="widget">
+        <center><h2>Form Buku Telepon</h2>
+        <p>Silakan isi buku telepon</p></center>
+        <hr>
+        <center>
+        <form name="form1" method="post" action="proses.php"> 
+            <label for="nama">Nama Lengkap</label><br>
+            <input type="text" name="nama" id="nama" placeholder="Masukkan Nama" required><br>
+
+            <label for="nama">Nomor Telepon</label><br>
+            <input type="text" name="telepon" id="telepon" placeholder="Masukkan Nomor Tlp" required><br>
+
+            <label for="nama">E-Mail</label><br>
+            <input type="text" name="email" id="email" placeholder="Masukkan Email" required><br>
+
+            <label for="nama">Jenis Kartu</label><br>
+            <select name="status" id="status">
+            <option>Telkomsel</option>
+            <option>AS</option>
+            <option>XL</option></select><br>
+
+            <div class="tombol">
+                  <button type="submit" class="kirim" name="submit">Kirim</button>
+                  <button type="reset" class="batal" name="Submit2">Batal</button>
+            </div>
+        </form>
+    </center>
+    </div>
+</body>
+</html>
